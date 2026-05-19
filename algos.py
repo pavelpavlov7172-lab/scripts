@@ -1,13 +1,11 @@
-# base = 8
-# num = int(input())
-# answer = ''
-# while num > 0:
-#     digit = num%base
-#     answer += str(digit)
-#     num//=base
-# print(answer[::-1])
+# a = [0] * 100
+# top = 0
+# x = int(input())
+# while x!=0:
+#     a[top] = x
+#     top+=1
+#     x = int(input())
+# for k in range(top):
+#     print(a[k])
+#
 
-nums = [1,2,3,4,5,6]
-f = False
-for i in nums:
-    print(f or i == 6)
